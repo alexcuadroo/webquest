@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebQuest: El Misterio de la Lista Perdida</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>
+          <i data-lucide="rocket"></i> WebQuest: El Misterio de la Lista Perdida
+        </h1>
+      </div>
+    </header>
+
+    <nav id="nav-menu">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#introduccion" class="nav-link active">Introducción</a>
+          </li>
+          <li><a href="#tarea" class="nav-link">Tarea</a></li>
+          <li><a href="#proceso" class="nav-link">Proceso</a></li>
+          <li><a href="#recursos" class="nav-link">Recursos</a></li>
+          <li><a href="#evaluacion" class="nav-link">Evaluación</a></li>
+          <li><a href="#conclusion" class="nav-link">Conclusión</a></li>
+          <li><a href="#creditos" class="nav-link">Créditos</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section id="introduccion" class="section">
+        <h2><i data-lucide="book-open"></i> Introducción</h2>
+        <div class="content-box">
+          <p id="intro-text"></p>
+          <div class="objective">
+            <strong>Objetivo:</strong> <span id="intro-objetivo"></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="tarea" class="section">
+        <h2><i data-lucide="target"></i> Tarea</h2>
+        <div class="content-box">
+          <p id="tarea-descripcion"></p>
+          <h3>Requisitos del producto final:</h3>
+          <ul id="tarea-requisitos"></ul>
+        </div>
+      </section>
+
+      <section id="proceso" class="section">
+        <h2><i data-lucide="settings"></i> Proceso</h2>
+        <div class="content-box">
+          <div id="proceso-fases"></div>
+        </div>
+      </section>
+
+      <section id="recursos" class="section">
+        <h2><i data-lucide="link"></i> Recursos</h2>
+        <div class="content-box">
+          <p>
+            Aquí tienes algunos recursos clave para tu investigación. ¡Recuerda
+            explorarlos y usarlos inteligentemente!
+          </p>
+          <div id="recursos-lista" class="recursos-grid"></div>
+        </div>
+      </section>
+
+      <section id="evaluacion" class="section">
+        <h2><i data-lucide="bar-chart-2"></i> Evaluación</h2>
+        <div class="content-box">
+          <p>Lista de cotejo para evaluar tu proyecto:</p>
+          <div class="table-responsive">
+            <table id="evaluacion-tabla">
+              <thead>
+                <tr>
+                  <th>Criterio</th>
+                  <th>Descripción</th>
+                  <th>Puntuación</th>
+                </tr>
+              </thead>
+              <tbody id="evaluacion-tbody"></tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="2"><strong>Total</strong></td>
+                  <td><strong id="evaluacion-total"></strong></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="conclusion" class="section">
+        <h2><i data-lucide="party-popper"></i> Conclusión</h2>
+        <div class="content-box">
+          <p id="conclusion-text"></p>
+        </div>
+      </section>
+
+      <section id="creditos" class="section">
+        <h2><i data-lucide="users"></i> Créditos</h2>
+        <div class="content-box">
+          <div id="creditos-contenido"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>2025 - WebQuest - Arreglos en micro:bit</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

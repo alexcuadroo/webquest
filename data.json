@@ -1,0 +1,129 @@
+{
+  "introduccion": {
+    "texto": "¡Atención, jóvenes programadores! 🧐\nImagina que eres un/a inventor/a de gadgets de última generación. Necesitas que tu dispositivo micro:bit pueda recordar y gestionar una secuencia de datos, como una lista de puntuaciones, una serie de comandos de un robot, o una galería de animaciones LED. ¿Cómo almacenas múltiples elementos de forma ordenada en una sola \"caja\" de datos?\nLa respuesta está en los Arreglos (o Arrays). Esta WebQuest te guiará para que descubras qué son, cómo se usan en MakeCode y cómo aplicarlos en tu micro:bit para resolver un desafío de programación. Puedes hacerlo individual o en equipo.",
+    "objetivo": "Comprender y aplicar el concepto de arreglos en programación, utilizando MakeCode para crear un proyecto funcional en micro:bit."
+  },
+  "tarea": {
+    "descripcion": "Tu misión es crear una \"Caja de Sorpresas Digital\" para la micro:bit.",
+    "requisitos": [
+      "Almacene al menos cinco elementos diferentes (p. ej., números, imágenes LED, o nombres) en un arreglo.",
+      "Muestre un elemento aleatorio de ese arreglo en la pantalla LED de la micro:bit al presionar el botón A.",
+      "Permita agregar un nuevo elemento al arreglo al presionar el botón B.",
+      "Presentar una breve demostración del código y explicar con tus palabras (en un informe o presentación) cómo el arreglo hace posible el proyecto."
+    ]
+  },
+  "proceso": {
+    "fases": [
+      {
+        "titulo": "Paso 1: Investigación y Configuración del Arreglo",
+        "actividades": [
+          {
+            "nombre": "A. ¡A Investigar!",
+            "descripcion": "Utiliza los recursos para comprender qué es un Arreglo (Array), qué son los índices y la longitud. Identifica los bloques de Arreglos en MakeCode (Crear, Obtener y Añadir)."
+          },
+          {
+            "nombre": "B. Crea tu Arreglo",
+            "descripcion": "Abre un nuevo proyecto en MakeCode. En el bloque al iniciar, crea un Arreglo (llámalo Sorpresas) e inicialízalo con al menos 5 íconos o números diferentes (los elementos de tu caja)."
+          }
+        ]
+      },
+      {
+        "titulo": "Paso 2: Programación de la Caja de Sorpresas y Presentación",
+        "actividades": [
+          {
+            "nombre": "A. Programar Botón A",
+            "descripcion": "En el bloque al presionar botón A: usa bloques de matemáticas para generar un número aleatorio que sea un índice válido (piensa en la longitud del arreglo). Luego, ten en cuenta el índice para obtener y mostrar el elemento de la Sorpresa en la pantalla LED."
+          },
+          {
+            "nombre": "B. Programar Botón B",
+            "descripcion": "En el bloque al presionar botón B: usa el bloque para añadir un nuevo elemento (una sorpresa extra) a tu arreglo Sorpresas. Muestra un mensaje breve (\"¡Nuevo!\") en la pantalla para confirmar."
+          },
+          {
+            "nombre": "C. Prueba y Demuestra",
+            "descripcion": "Prueba el código en el simulador o en la micro:bit. Asegúrate de que el Botón B realmente añada la sorpresa para que el Botón A pueda mostrarla después. Prepara tu breve demostración final y la explicación de cómo funciona el arreglo."
+          }
+        ]
+      }
+    ]
+  },
+  "recursos": [
+    {
+      "titulo": "MakeCode para micro:bit - Editor Oficial",
+      "descripcion": "Plataforma recomendada para programar tu micro:bit con bloques",
+      "url": "https://makecode.microbit.org/",
+      "placeholder": false
+    },
+    {
+      "titulo": "Arreglos en MakeCode",
+      "descripcion": "Referencia sobre cómo trabajar con arreglos en MakeCode",
+      "url": "https://newtoncbraga.com.mx/curso-de-electronica/102-micro-bit/30592-arreglos-arrays-con-micro-bit-mic069s",
+      "placeholder": false
+    },
+    {
+      "titulo": "Arreglos - Conceptos, Tipos y Características",
+      "descripcion": "Aprende los conceptos básicos de los arreglos en programación",
+      "url": "https://msmk.university/array-en-programacion-concepto-tipos-y-ejemplos/",
+      "placeholder": false
+    },
+    {
+      "titulo": "Arreglos con MakeCode",
+      "descripcion": "Acercamiento sencillo a los arreglos mediante bloques en MakeCode",
+      "url": "https://makecode.microbit.org/types/array",
+      "placeholder": false
+    },
+    {
+      "titulo": "Video Tutorial: Introducción a Arrays con MakeCode",
+      "descripcion": "Video explicativo sobre el concepto de arreglos en el entorno de MakeCode",
+      "url": "https://youtu.be/VK6POqoSpwo",
+      "placeholder": false
+    }
+  ],
+  "evaluacion": {
+    "criterios": [
+      {
+        "criterio": "Comprensión del concepto de Arreglo",
+        "descripcion": "Demuestra entender qué es un arreglo y sus características (índice, longitud, elementos)",
+        "puntajeMaximo": 1
+      },
+      {
+        "criterio": "Creación e inicialización del arreglo",
+        "descripcion": "Crea correctamente un arreglo con al menos 5 elementos en el código",
+        "puntajeMaximo": 2
+      },
+      {
+        "criterio": "Función Botón A (Elemento aleatorio)",
+        "descripcion": "Implementa correctamente la función para mostrar un elemento aleatorio del arreglo",
+        "puntajeMaximo": 1
+      },
+      {
+        "criterio": "Función Botón B (Añadir elemento)",
+        "descripcion": "Implementa correctamente la función para añadir nuevos elementos al arreglo",
+        "puntajeMaximo": 1
+      },
+      {
+        "criterio": "Funcionamiento del código",
+        "descripcion": "El código funciona sin errores en el simulador o dispositivo real",
+        "puntajeMaximo": 2
+      },
+      {
+        "criterio": "Presentación y documentación",
+        "descripcion": "Presenta el código y explica claramente cómo se utilizan los arreglos",
+        "puntajeMaximo": 2
+      },
+      {
+        "criterio": "Trabajo en equipo (si aplica)",
+        "descripcion": "Colaboración y distribución equitativa del trabajo",
+        "puntajeMaximo": 1
+      }
+    ],
+    "totalMaximo": 10
+  },
+  "conclusion": {
+    "texto": "¡Felicitaciones! 🎉 Has desbloqueado el poder de los Arreglos. Ahora puedes organizar grandes cantidades de datos en una colección bajo un mismo nombre, haciendo tu código más eficiente, dinámico y potente. Esta es una habilidad fundamental que te servirá en cualquier lenguaje de programación futuro.\n¡Sigue explorando y programando! ¿Qué otros proyectos podrías crear con arreglos? ¿Podrías crear un juego de memoria o un reproductor de música? ¡El límite es tu imaginación!"
+  },
+  "creditos": {
+    "autor": "Creado por: Alex Cuadro",
+    "fecha": "Fecha: Octubre 2025",
+    "agradecimientos": "Recursos utilizados de MakeCode, micro:bit Educational Foundation y la MSMK university. Estructura basada en el Genially compartido en CREA"
+  }
+}
